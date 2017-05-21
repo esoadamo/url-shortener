@@ -16,7 +16,7 @@ $api_key = "YOUR_KEY_HERE"; // Key you to provide your permission to create link
 $settings_done = false; // Set this to true when you complete your settings
 
 if ( !$settings_done ) {
-	print("Setting are not completed. Please edit this file and finish the settings.");
+	print("Setting is not completed. Please edit this file and finish the settings.");
 	exit();
 }
 
@@ -60,7 +60,7 @@ if ( isset($_AR['link']) ) {
 		exit(0);
 	}
 
-	$protocol = $use_ssl ? "https://" : "http";
+	$protocol = $use_ssl ? "https://" : "http://";
 
 	$long_link = $_AR['link'];
 	if ( in_array($long_link, $array_urls) ) { // Check if link already exists
