@@ -45,4 +45,4 @@ to create new short URL call this script with two parameters:
 - **link** - the long URL
 - **key** - your api_key
 
-you can check the example written in Python
+you can check the [example](https://github.com/esoadamo/url-shortener/blob/master/shortener_client.py) written in Python
